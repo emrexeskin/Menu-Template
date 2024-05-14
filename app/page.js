@@ -5,7 +5,7 @@ import ProductList from "@/components/product-list";
 export default function Home() {
  
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between overflow-hidden">
+    <main className="flex min-h-screen flex-col items-center justify-between overflow-hidden pt-24">
       <ProductList></ProductList>
     </main>
   );
